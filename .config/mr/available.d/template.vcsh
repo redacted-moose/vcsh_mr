@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/fluxbox.git]
+checkout = vcsh clone ssh://git@github.com/redacted-moose/vcsh_fluxbox.git fluxbox

@@ -1,0 +1,5 @@
+[$HOME/.config/vcsh/repo.d/spacemacs_config.git]
+checkout = vcsh clone git://github.com/redacted-moose/vcsh_spacemacs.git spacemacs_config
+
+[$HOME/.config/vcsh/repo.d/spacemacs.git]
+checkout = mkdir -p ~/.emacs.d; VCSH_BASE=~/.emacs.d vcsh clone https://github.com/syl20bnr/spacemacs.git spacemacs
