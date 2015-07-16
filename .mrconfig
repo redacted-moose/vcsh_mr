@@ -1,5 +1,6 @@
 [DEFAULT]
 git_gc = git gc "$@"
 jobs = 5
+post_update = vcshrepo=${MR_REPO##*/}; vcshrepo=${vcshrepo%.git}; vcsh $vcshrepo submodule update --init --recursive
 
 include = cat ~/.config/mr/config.d/*
