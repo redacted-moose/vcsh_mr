@@ -1,0 +1,16 @@
+*
+!/.config
+!/.config/mr
+!/.config/mr/available.d
+!/.config/mr/available.d/fluxbox.vcsh
+!/.config/mr/available.d/mr.vcsh
+!/.config/mr/available.d/spacemacs.vcsh
+!/.config/mr/available.d/template.vcsh
+!/.config/mr/available.d/vcsh-modules.vcsh
+!/.config/mr/available.d/vim.vcsh
+!/.config/mr/config.d
+!/.config/mr/config.d/bash.vcsh
+!/.config/mr/config.d/mr.vcsh
+!/.gitignore.d
+!/.gitignore.d/mr
+!/.mrconfig
