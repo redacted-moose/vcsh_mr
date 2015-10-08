@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/vim-mode.git]
+checkout = mkdir -p "$HOME/.atom/packages"; VCSH_BASE="$HOME/.atom/packages/vim-mode" vcsh clone -b neovim-mode https://github.com/carlosdcastillo/vim-mode.git vim-mode; cd "$HOME/.atom/packages/vim-mode"; apm install

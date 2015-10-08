@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/vim-plug.git]
+checkout = mkdir -p ~/.vim/autoload; VCSH_BASE=~/.vim/plugged/vim-plug vcsh clone git://github.com/junegunn/vim-plug.git vim-plug; ln -s ~/.vim/plugged/vim-plug/plug.vim ~/.vim/autoload
